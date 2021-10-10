@@ -10,6 +10,10 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
+
 @NgModule({
   exports: [
     MatSidenavModule,
@@ -23,6 +27,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatAutocompleteModule,
     MatFormFieldModule,
     MatInputModule,
+    MatSelectModule,
+    MatSnackBarModule,
+    MatDialogModule,
   ],
 })
 export class MaterialModule {}
